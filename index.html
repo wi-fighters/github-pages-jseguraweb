@@ -7,28 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Working with GitHub Pages</title>
     <style>
+        /* RESET */
         * {
             margin: 0;
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 400;
+            line-height: 1.6em;
         }
 
+        /* BODY */
         body {
             margin: 0 auto;
             padding: 35px 50px;
             width: 70%;
         }
 
+        /* HEADER */
         h1 {
             margin-bottom: 2%;
         }
 
-        h2 {
+        header>p {
             font-size: 1.3em;
-            margin: 2% 0;
         }
 
+        /* ASIDE */
         aside {
             background-color: #F5F0FF;
             border: 1px solid #725CC1;
@@ -38,20 +42,31 @@
             padding: 2%;
         }
 
+        /* MAIN */
+        h2 {
+            font-size: 1.3em;
+            margin: 2% 0;
+        }
+
+        /* STYLE ANCHORS */
         h2,
-        h3,
+        h3>a,
         ul,
         ul>a,
         li>a {
             color: #0366D6;
+            text-decoration: none;
         }
 
-        ul>li>h3 {
-            list-style-type: disc;
+        h3 {
+            font-size: 1.1em;
+        }
+
+        h3>li {
+            list-style-type: circle;
         }
 
         ul {
-
             margin: 15px 35px;
         }
 
@@ -59,8 +74,8 @@
             margin: 5px;
         }
 
-        h3>li {
-            list-style-type: circle;
+        p {
+            font-size: 1.1em;
         }
     </style>
 </head>
@@ -69,7 +84,6 @@
 
     <header>
         <h1>Working with GitHub Pages</h1>
-
         <p>You can create a website directly from a GitHub repository.</p>
     </header>
 
@@ -182,7 +196,6 @@
                         href="https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site">Configuring
                         a custom domain for your GitHub Pages site</a></h3>
             </li>
-
             <ul>
                 <li><a
                         href="https://help.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages">About
